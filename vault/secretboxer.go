@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/solana-go/cli"
 	"github.com/pkg/errors"
+	"github.com/stonecoldik/go-solana/cli"
 )
 
 type SecretBoxer interface {

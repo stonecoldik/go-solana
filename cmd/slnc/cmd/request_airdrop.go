@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
 	"github.com/spf13/cobra"
+	"github.com/stonecoldik/go-solana"
+	"github.com/stonecoldik/go-solana/rpc"
 )
 
 var requestCmd = &cobra.Command{

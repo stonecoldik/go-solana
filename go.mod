@@ -1,4 +1,4 @@
-module github.com/gagliardetto/solana-go
+module github.com/stonecoldik/go-solana
 
 go 1.16
 

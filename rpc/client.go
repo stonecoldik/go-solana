@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gagliardetto/solana-go/rpc/jsonrpc"
 	"github.com/klauspost/compress/gzhttp"
+	"github.com/stonecoldik/go-solana/rpc/jsonrpc"
 )
 
 var ErrNotFound = errors.New("not found")

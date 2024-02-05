@@ -17,7 +17,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/stonecoldik/go-solana"
 )
 
 // GetGenesisHash returns the genesis hash.

@@ -17,7 +17,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/stonecoldik/go-solana"
 )
 
 // GetFees returns a recent block hash from the ledger,

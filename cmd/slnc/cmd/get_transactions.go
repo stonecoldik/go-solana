@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/solana-go"
-	_ "github.com/gagliardetto/solana-go/programs/serum"
-	_ "github.com/gagliardetto/solana-go/programs/system"
-	_ "github.com/gagliardetto/solana-go/programs/token"
-	_ "github.com/gagliardetto/solana-go/programs/tokenregistry"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/gagliardetto/solana-go/text"
 	"github.com/spf13/cobra"
+	"github.com/stonecoldik/go-solana"
+	_ "github.com/stonecoldik/go-solana/programs/serum"
+	_ "github.com/stonecoldik/go-solana/programs/system"
+	_ "github.com/stonecoldik/go-solana/programs/token"
+	_ "github.com/stonecoldik/go-solana/programs/tokenregistry"
+	"github.com/stonecoldik/go-solana/rpc"
+	"github.com/stonecoldik/go-solana/text"
 )
 
 var getTransactionsCmd = &cobra.Command{

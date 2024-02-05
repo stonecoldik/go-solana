@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gagliardetto/solana-go/rpc/jsonrpc"
+	"github.com/stonecoldik/go-solana/rpc/jsonrpc"
 	"go.uber.org/ratelimit"
 )
 

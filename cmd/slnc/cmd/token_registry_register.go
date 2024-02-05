@@ -21,14 +21,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/stonecoldik/go-solana/rpc"
 
 	"github.com/spf13/viper"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/programs/system"
-	"github.com/gagliardetto/solana-go/programs/tokenregistry"
 	"github.com/spf13/cobra"
+	"github.com/stonecoldik/go-solana"
+	"github.com/stonecoldik/go-solana/programs/system"
+	"github.com/stonecoldik/go-solana/programs/tokenregistry"
 )
 
 var tokenRegistryRegisterCmd = &cobra.Command{

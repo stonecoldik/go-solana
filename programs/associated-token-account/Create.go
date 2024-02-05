@@ -19,9 +19,9 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	solana "github.com/gagliardetto/solana-go"
-	format "github.com/gagliardetto/solana-go/text/format"
 	treeout "github.com/gagliardetto/treeout"
+	solana "github.com/stonecoldik/go-solana"
+	format "github.com/stonecoldik/go-solana/text/format"
 )
 
 type Create struct {

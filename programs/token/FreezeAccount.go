@@ -19,9 +19,9 @@ import (
 	"fmt"
 
 	ag_binary "github.com/gagliardetto/binary"
-	ag_solanago "github.com/gagliardetto/solana-go"
-	ag_format "github.com/gagliardetto/solana-go/text/format"
 	ag_treeout "github.com/gagliardetto/treeout"
+	ag_solanago "github.com/stonecoldik/go-solana"
+	ag_format "github.com/stonecoldik/go-solana/text/format"
 )
 
 // Freeze an Initialized account using the Mint's freeze_authority (if set).

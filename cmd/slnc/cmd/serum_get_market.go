@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/programs/serum"
-	"github.com/gagliardetto/solana-go/rpc"
 	"github.com/ryanuber/columnize"
 	"github.com/spf13/cobra"
+	"github.com/stonecoldik/go-solana"
+	"github.com/stonecoldik/go-solana/programs/serum"
+	"github.com/stonecoldik/go-solana/rpc"
 )
 
 var serumGetMarketCmd = &cobra.Command{
